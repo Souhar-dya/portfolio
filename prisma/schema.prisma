@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  title       String   @db.VarChar(255)
+  description String   @db.Text
+  category    String   @db.VarChar(100)
+  githubUrl   String?  @db.VarChar(500)
+  homepage    String?  @db.VarChar(500)
+  language    String?  @db.VarChar(100)
+  stars       Int      @default(0)
+  forks       Int      @default(0)
+  githubId    Int?     @unique
+  topics      Json?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  pushedAt    DateTime?
+  isVisible   Boolean  @default(true)
+  
+  @@map("projects")
+}
