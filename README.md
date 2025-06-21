@@ -140,23 +140,17 @@ This project can be deployed on any platform that supports Node.js:
 2. Import and add to `app/page.tsx`
 3. Update navigation in `components/navigation.tsx`
 
-## 🤝 Contributing
 
-This is a personal portfolio project, but suggestions and improvements are welcome!
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-- **Email**: souhardya@example.com
+- **Email**: kundusouhardya@gmail.com
 - **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub](https://github.com/yourusername)
+- **GitHub**: [Your GitHub]([https://github.com/yourusername](https://github.com/Souhar-dya))
 
 ---
 
-Built with ❤️ by Souhardya Kundu
+Built by Souhardya Kundu
 \`\`\`
 
 ```plaintext file=".env.example"
