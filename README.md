@@ -162,8 +162,8 @@ GITHUB_TOKEN="github_pat_your_token_here"
 
 # Admin Authentication
 ADMIN_USERNAME="admin"
-ADMIN_PASSWORD="your-secure-password-123"
-JWT_SECRET="your-super-secret-jwt-key-here"
+ADMIN_PASSWORD="123"
+JWT_SECRET="here"
 
 # Optional: For production deployment
 NODE_ENV="production"
